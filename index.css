@@ -1,0 +1,148 @@
+p{
+  font-family: Outfit;
+}
+.main-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 760px;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: hsl(217, 54%, 11%);
+}
+.card-canva{
+  padding-top: 20px;
+  justify-content: center;
+  height: 558px;
+  width: 331px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.15);
+}
+.cyan-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 21px;
+  background-color: cyan;
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.cyan-div:hover {
+  opacity: 0.5;
+}
+
+.cyan-div:hover .icon-view{
+  opacity: 1;
+}
+.thumbnail-div{
+  height: 290px;
+  text-align: center;
+  position: relative;
+  transition: 0.4s;
+}
+.thumbnail{
+  height: 290px;
+  width: 290px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.icon-view{
+  opacity: 0;
+  transition: 0.4s;
+  z-index: 1000;
+}
+.header-1{
+  font-family: Outfit;
+  width: 170px;
+  color: white;
+  margin-left: 25px;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.header-1:hover{
+  color: hsl(178, 100%, 50%);
+}
+.p-1{
+  color: hsl(215, 51%, 70%);
+  font-family: Outfit;
+  font-size: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.nft-profile{
+  display: flex;
+  justify-content: space-betwehen;
+  align-items: center;
+}
+.eth-icon{
+  padding-left: 25PX;
+  height: 18px;
+}
+
+.price{
+  font-weight: 700;
+  font-size: 15PX;
+  margin-left: 8px;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock-icon{
+  margin-left: 83px;
+  height: 18px;
+}
+
+.no-of-days{
+  margin-left: 8px;
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+
+.line{
+  margin-left: 25px;
+  margin-right: 25px;
+  border-style: solid;
+  overflow: hidden;
+  border-width: 0.1px;
+  border-color: hsl(215, 51%, 70%);
+}
+
+.profile-div{
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.profile-picture{
+  height: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: hsl(215, 51%, 70%);
+  border-width: 1px;
+}
+
+.profile-bio{
+  padding-left: 10px;
+  color: hsl(215, 51%, 70%);
+}
+
+.name{
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: 700;
+  color: white;
+}
+.name:hover{
+  color: hsl(178, 100%, 50%);
+}
